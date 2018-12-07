@@ -9,10 +9,10 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Tv show scraper'
+BOT_NAME = 'tvshow'
 
-SPIDER_MODULES = ['Tv show scraper.spiders']
-NEWSPIDER_MODULE = 'Tv show scraper.spiders'
+SPIDER_MODULES = ['tvshow.spiders']
+NEWSPIDER_MODULE = 'tvshow.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
